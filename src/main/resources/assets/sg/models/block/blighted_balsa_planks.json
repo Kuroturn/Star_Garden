@@ -1,0 +1,15 @@
+{
+  "parent": "block/cube_all",
+  "type": "fusion:connecting",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
+  "textures": {
+    "all": "sg:block/blighted_balsa_planks",
+    "particle": "sg:block/blighted_balsa_planks"
+  },
+  "render_type": "solid"
+}

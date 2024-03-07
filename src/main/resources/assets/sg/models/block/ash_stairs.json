@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "sg:block/ash_planks",
+    "top": "sg:block/ash_planks",
+    "side": "sg:block/ash_planks"
+  },
+  "render_type": "solid"
+}

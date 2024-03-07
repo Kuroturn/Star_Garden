@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "sg:block/starlit_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "sg:block/starlit_planks",
+    "top": "sg:block/starlit_planks",
+    "side": "sg:block/starlit_planks"
+  },
+  "render_type": "solid"
+}

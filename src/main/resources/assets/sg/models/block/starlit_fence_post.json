@@ -1,0 +1,15 @@
+{
+  "parent": "block/fence_post",
+  "type": "fusion:connecting",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
+  "textures": {
+    "texture": "sg:block/starlit_planks",
+    "particle": "sg:block/starlit_planks"
+  },
+  "render_type": "solid"
+}

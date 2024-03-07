@@ -1,0 +1,15 @@
+{
+  "parent": "block/fence_side",
+  "type": "fusion:connecting",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
+  "textures": {
+    "texture": "sg:block/ash_planks",
+    "particle": "sg:block/ash_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "forge:ash_log"
+    }
+  ],
+  "result": {
+    "item": "sg:ash_planks",
+    "count": 4
+  }
+}

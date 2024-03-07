@@ -1,0 +1,15 @@
+{
+  "parent": "block/cube_all",
+  "type": "fusion:connecting",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
+  "textures": {
+    "all": "sg:block/rosewood_log_side",
+    "particle": "sg:block/rosewood_log_side"
+  },
+  "render_type": "solid"
+}

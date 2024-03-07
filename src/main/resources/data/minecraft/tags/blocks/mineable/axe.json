@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "sg:ash_log",
+    "sg:ash_wood",
+    "sg:ash_planks",
+    "sg:starlit_wood",
+    "sg:starlit_log",
+    "sg:starlit_planks",
+    "sg:sacred_wood",
+    "sg:sacred_log",
+    "sg:sacred_planks",
+    "sg:rosewood_wood",
+    "sg:rosewood_log",
+    "sg:rosewood_planks",
+    "sg:blighted_balsa_wood",
+    "sg:blighted_balsa_log",
+    "sg:blighted_balsa_planks"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sg:block/ash_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sg:block/ash_wood"
+    },
+    "axis=z": {
+      "model": "sg:block/ash_wood",
+      "x": 90
+    }
+  }
+}

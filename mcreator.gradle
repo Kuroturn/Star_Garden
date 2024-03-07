@@ -1,0 +1,145 @@
+repositories {
+  maven {
+    url = "https://cursemaven.com"
+  }
+}
+
+dependencies {
+  implementation fg.deobf("curse.maven:kleidersplayerrenderer-682065:5083528")
+}
+
+
+minecraft {
+	runs {
+		client {
+			property 'mixin.env.remapRefMap', 'true'
+			property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+		}
+		server {
+			property 'mixin.env.remapRefMap', 'true'
+			property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+		}
+		data {
+			property 'mixin.env.remapRefMap', 'true'
+			property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+		}
+	}
+}  
+repositories {
+	maven {
+		url = "https://jitpack.io"
+	}
+}
+
+dependencies {
+	compileOnly fg.deobf("com.github.Virtuoel:Pehkui:3.7.11-1.19.4-forge")
+	runtimeOnly fg.deobf("com.github.Virtuoel:Pehkui:3.7.11-1.19.4-forge")
+}
+
+
+repositories {
+maven {
+  url = "https://maven.theillusivec4.top/"
+  }
+}
+
+dependencies {
+  runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.19.4-5.1.5.2")
+  compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.19.4-5.1.5.2:api")
+}
+minecraft {
+  runs {
+     client {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+
+      server {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+      data {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+  }
+}
+
+
+repositories {
+    maven { url 'https://maven.blamejared.com' }
+}
+
+dependencies {
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1-FORGE:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1-FORGE")
+	// Plugin Note: PatchouliAPI versions can be found here: https://www.curseforge.com/minecraft/mc-mods/patchouli/files/all?page=1&pageSize=20&gameVersionTypeId=1
+}
+
+
+repositories {
+  maven {
+      url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+  }
+}
+
+dependencies {
+  implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19.4:4.2')
+}
+
+minecraft {
+  runs {
+     client {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+      server {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+      data {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+  }
+}
+
+
+minecraft {
+  runs {
+   client {    
+      property 'mixin.env.remapRefMap', 'true'
+      property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+       }
+        server {
+         property 'mixin.env.remapRefMap', 'true'
+         property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+       }
+      }
+     }
+
+repositories {
+ maven {
+     url = 'https://maven.kosmx.dev/'
+ }
+}
+
+ dependencies {
+   implementation fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:1.0.2+1.19.4")
+ }
+
+
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
+dependencies {
+   compileOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633433")
+   runtimeOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633433")
+}
+
+

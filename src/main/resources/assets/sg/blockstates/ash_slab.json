@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sg:block/ash_slab"
+    },
+    "type=top": {
+      "model": "sg:block/ash_slab_top"
+    },
+    "type=double": {
+      "model": "sg:block/ash_slab_full"
+    }
+  }
+}

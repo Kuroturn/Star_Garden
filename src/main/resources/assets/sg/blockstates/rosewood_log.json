@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sg:block/rosewood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sg:block/rosewood_log"
+    },
+    "axis=z": {
+      "model": "sg:block/rosewood_log",
+      "x": 90
+    }
+  }
+}

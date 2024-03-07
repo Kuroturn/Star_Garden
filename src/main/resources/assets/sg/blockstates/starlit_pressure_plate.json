@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "sg:block/starlit_pressure_plate"
+    },
+    "powered=true": {
+      "model": "sg:block/starlit_pressure_plate_down"
+    }
+  }
+}

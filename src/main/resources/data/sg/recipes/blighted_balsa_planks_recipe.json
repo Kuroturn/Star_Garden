@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "forge:blighted_balsa_log"
+    }
+  ],
+  "result": {
+    "item": "sg:blighted_balsa_planks",
+    "count": 4
+  }
+}

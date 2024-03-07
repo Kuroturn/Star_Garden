@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "sg:block/rosewood_planks",
+    "top": "sg:block/rosewood_planks",
+    "side": "sg:block/rosewood_planks"
+  },
+  "render_type": "solid"
+}

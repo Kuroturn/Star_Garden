@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Blighted_BalsaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blighted_BalsaPlanks"
+      },
+      {
+        "value": "CUSTOM:Blighted_BalsaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blighted_BalsaPlanks"
+      },
+      {
+        "value": "CUSTOM:Blighted_BalsaPlanks"
+      },
+      {
+        "value": "CUSTOM:Blighted_BalsaPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Blighted_BalsaStairs"
+    },
+    "name": "blighted_balsa_stairs_recipe",
+    "namespace": "mod"
+  }
+}

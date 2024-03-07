@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sg:block/blighted_balsa_slab"
+    },
+    "type=top": {
+      "model": "sg:block/blighted_balsa_slab_top"
+    },
+    "type=double": {
+      "model": "sg:block/blighted_balsa_slab_full"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "sg:block/ash_planks"
+  },
+  "render_type": "solid"
+}

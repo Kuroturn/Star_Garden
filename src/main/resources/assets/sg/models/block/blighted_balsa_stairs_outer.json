@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "sg:block/blighted_balsa_planks",
+    "top": "sg:block/blighted_balsa_planks",
+    "side": "sg:block/blighted_balsa_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "sg:rosewood_planks"
+    }
+  ],
+  "result": {
+    "item": "sg:rosewood_button",
+    "count": 1
+  }
+}

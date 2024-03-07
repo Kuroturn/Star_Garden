@@ -1,0 +1,2105 @@
+{
+  "mod_elements": [
+    {
+      "name": "AshWood",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/ash_wood.json",
+          "src/main/java/net/mcreator/garden/block/AshWoodBlock.java",
+          "src/main/resources/assets/sg/models/block/ash_wood.json",
+          "src/main/resources/assets/sg/blockstates/ash_wood.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/ash_log.json",
+          "src/main/resources/assets/sg/models/item/ash_log.json",
+          "src/main/java/net/mcreator/garden/block/AshLogBlock.java",
+          "src/main/resources/assets/sg/blockstates/ash_log.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshPlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/ash_planks.json",
+          "src/main/resources/assets/sg/models/block/ash_planks.json",
+          "src/main/resources/assets/sg/blockstates/ash_planks.json",
+          "src/main/java/net/mcreator/garden/block/AshPlanksBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/AshLeavesBlock.java",
+          "src/main/resources/assets/sg/models/block/ash_leaves.json",
+          "src/main/resources/assets/sg/models/item/ash_leaves.json",
+          "src/main/resources/assets/sg/blockstates/ash_leaves.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/AshStairsBlock.java",
+          "src/main/resources/assets/sg/blockstates/ash_stairs.json",
+          "src/main/resources/assets/sg/models/block/ash_stairs_outer.json",
+          "src/main/resources/assets/sg/models/block/ash_stairs_inner.json",
+          "src/main/resources/assets/sg/models/item/ash_stairs.json",
+          "src/main/resources/assets/sg/models/block/ash_stairs.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/ash_slab.json",
+          "src/main/resources/assets/sg/models/block/ash_slab.json",
+          "src/main/java/net/mcreator/garden/block/AshSlabBlock.java",
+          "src/main/resources/assets/sg/models/item/ash_slab.json",
+          "src/main/resources/assets/sg/models/block/ash_slab_top.json",
+          "src/main/resources/assets/sg/models/block/ash_slab_full.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/AshFenceBlock.java",
+          "src/main/resources/assets/sg/models/block/ash_fence.json",
+          "src/main/resources/assets/sg/models/item/ash_fence.json",
+          "src/main/resources/assets/sg/models/block/ash_fence_inventory.json",
+          "src/main/resources/assets/sg/blockstates/ash_fence.json",
+          "src/main/resources/assets/sg/models/block/ash_fence_post.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/ash_fence_gate_wall.json",
+          "src/main/java/net/mcreator/garden/block/AshFenceGateBlock.java",
+          "src/main/resources/assets/sg/models/item/ash_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/ash_fence_gate_wall_open.json",
+          "src/main/resources/assets/sg/models/block/ash_fence_gate_open.json",
+          "src/main/resources/assets/sg/blockstates/ash_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/ash_fence_gate.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshPressurePlate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/ash_pressure_plate_down.json",
+          "src/main/resources/assets/sg/models/item/ash_pressure_plate.json",
+          "src/main/resources/assets/sg/models/block/ash_pressure_plate.json",
+          "src/main/resources/assets/sg/blockstates/ash_pressure_plate.json",
+          "src/main/java/net/mcreator/garden/block/AshPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshButton",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/ash_button.json",
+          "src/main/java/net/mcreator/garden/block/AshButtonBlock.java",
+          "src/main/resources/assets/sg/models/item/ash_button.json",
+          "src/main/resources/assets/sg/models/block/ash_button.json",
+          "src/main/resources/assets/sg/models/block/ash_button_inventory.json",
+          "src/main/resources/assets/sg/models/block/ash_button_pressed.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshItemsTag",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ash_log.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshWoodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_wood_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshPlanksRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_planks_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshStairsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshSlabRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_slab_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshFenceRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_fence_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshButtonRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_button_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "AshStickRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/ash_stick_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Ash"
+    },
+    {
+      "name": "StarlitWood",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/starlit_wood.json",
+          "src/main/resources/assets/sg/models/block/starlit_wood.json",
+          "src/main/java/net/mcreator/garden/block/StarlitWoodBlock.java",
+          "src/main/resources/assets/sg/blockstates/starlit_wood.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitLog",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/starlit_log.json",
+          "src/main/java/net/mcreator/garden/block/StarlitLogBlock.java",
+          "src/main/resources/assets/sg/models/item/starlit_log.json",
+          "src/main/resources/assets/sg/blockstates/starlit_log.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitPlanks",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/starlit_planks.json",
+          "src/main/java/net/mcreator/garden/block/StarlitPlanksBlock.java",
+          "src/main/resources/assets/sg/blockstates/starlit_planks.json",
+          "src/main/resources/assets/sg/models/item/starlit_planks.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitLeaves",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/starlit_leaves.json",
+          "src/main/resources/assets/sg/models/item/starlit_leaves.json",
+          "src/main/java/net/mcreator/garden/block/StarlitLeavesBlock.java",
+          "src/main/resources/assets/sg/models/block/starlit_leaves.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitStairs",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/starlit_stairs_outer.json",
+          "src/main/resources/assets/sg/blockstates/starlit_stairs.json",
+          "src/main/resources/assets/sg/models/item/starlit_stairs.json",
+          "src/main/resources/assets/sg/models/block/starlit_stairs.json",
+          "src/main/java/net/mcreator/garden/block/StarlitStairsBlock.java",
+          "src/main/resources/assets/sg/models/block/starlit_stairs_inner.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitSlab",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/starlit_slab_top.json",
+          "src/main/resources/assets/sg/models/item/starlit_slab.json",
+          "src/main/resources/assets/sg/models/block/starlit_slab.json",
+          "src/main/resources/assets/sg/models/block/starlit_slab_full.json",
+          "src/main/java/net/mcreator/garden/block/StarlitSlabBlock.java",
+          "src/main/resources/assets/sg/blockstates/starlit_slab.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitFence",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/StarlitFenceBlock.java",
+          "src/main/resources/assets/sg/blockstates/starlit_fence.json",
+          "src/main/resources/assets/sg/models/item/starlit_fence.json",
+          "src/main/resources/assets/sg/models/block/starlit_fence_inventory.json",
+          "src/main/resources/assets/sg/models/block/starlit_fence.json",
+          "src/main/resources/assets/sg/models/block/starlit_fence_post.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitFenceGate",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/starlit_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/starlit_fence_gate_wall_open.json",
+          "src/main/resources/assets/sg/models/block/starlit_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/starlit_fence_gate_open.json",
+          "src/main/java/net/mcreator/garden/block/StarlitFenceGateBlock.java",
+          "src/main/resources/assets/sg/blockstates/starlit_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/starlit_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitPressurePlate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/starlit_pressure_plate.json",
+          "src/main/java/net/mcreator/garden/block/StarlitPressurePlateBlock.java",
+          "src/main/resources/assets/sg/models/item/starlit_pressure_plate.json",
+          "src/main/resources/assets/sg/models/block/starlit_pressure_plate_down.json",
+          "src/main/resources/assets/sg/models/block/starlit_pressure_plate.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitButton",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/starlit_button_pressed.json",
+          "src/main/resources/assets/sg/models/block/starlit_button_inventory.json",
+          "src/main/resources/assets/sg/models/block/starlit_button.json",
+          "src/main/java/net/mcreator/garden/block/StarlitButtonBlock.java",
+          "src/main/resources/assets/sg/blockstates/starlit_button.json",
+          "src/main/resources/assets/sg/models/item/starlit_button.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitItemsTag",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/starlit_log.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitWoodRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_wood_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitPlanksRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_planks_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitStairsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitSlabRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_slab_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitFenceRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_fence_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitButtonRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_button_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "StarlitStickRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlit_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/starlit_stick_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Starlit"
+    },
+    {
+      "name": "SacredWood",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/sacred_wood.json",
+          "src/main/resources/assets/sg/models/item/sacred_wood.json",
+          "src/main/resources/assets/sg/blockstates/sacred_wood.json",
+          "src/main/java/net/mcreator/garden/block/SacredWoodBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredLog",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/SacredLogBlock.java",
+          "src/main/resources/assets/sg/models/item/sacred_log.json",
+          "src/main/resources/assets/sg/blockstates/sacred_log.json",
+          "src/main/resources/assets/sg/models/block/sacred_log.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredPlanks",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/SacredPlanksBlock.java",
+          "src/main/resources/assets/sg/models/block/sacred_planks.json",
+          "src/main/resources/assets/sg/models/item/sacred_planks.json",
+          "src/main/resources/assets/sg/blockstates/sacred_planks.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredLeaves",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/sacred_leaves.json",
+          "src/main/resources/assets/sg/models/item/sacred_leaves.json",
+          "src/main/resources/assets/sg/blockstates/sacred_leaves.json",
+          "src/main/java/net/mcreator/garden/block/SacredLeavesBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredStairs",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/sacred_stairs_outer.json",
+          "src/main/java/net/mcreator/garden/block/SacredStairsBlock.java",
+          "src/main/resources/assets/sg/models/item/sacred_stairs.json",
+          "src/main/resources/assets/sg/models/block/sacred_stairs.json",
+          "src/main/resources/assets/sg/blockstates/sacred_stairs.json",
+          "src/main/resources/assets/sg/models/block/sacred_stairs_inner.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredSlab",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/sacred_slab.json",
+          "src/main/resources/assets/sg/blockstates/sacred_slab.json",
+          "src/main/resources/assets/sg/models/block/sacred_slab_full.json",
+          "src/main/resources/assets/sg/models/block/sacred_slab.json",
+          "src/main/resources/assets/sg/models/block/sacred_slab_top.json",
+          "src/main/java/net/mcreator/garden/block/SacredSlabBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredFence",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/SacredFenceBlock.java",
+          "src/main/resources/assets/sg/models/block/sacred_fence.json",
+          "src/main/resources/assets/sg/models/item/sacred_fence.json",
+          "src/main/resources/assets/sg/blockstates/sacred_fence.json",
+          "src/main/resources/assets/sg/models/block/sacred_fence_inventory.json",
+          "src/main/resources/assets/sg/models/block/sacred_fence_post.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredFenceGate",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/sacred_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/sacred_fence_gate_wall.json",
+          "src/main/resources/assets/sg/models/block/sacred_fence_gate_wall_open.json",
+          "src/main/resources/assets/sg/models/block/sacred_fence_gate.json",
+          "src/main/java/net/mcreator/garden/block/SacredFenceGateBlock.java",
+          "src/main/resources/assets/sg/blockstates/sacred_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/sacred_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredPressurePlate",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/sacred_pressure_plate_down.json",
+          "src/main/resources/assets/sg/models/block/sacred_pressure_plate.json",
+          "src/main/resources/assets/sg/models/item/sacred_pressure_plate.json",
+          "src/main/resources/assets/sg/blockstates/sacred_pressure_plate.json",
+          "src/main/java/net/mcreator/garden/block/SacredPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredButton",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/SacredButtonBlock.java",
+          "src/main/resources/assets/sg/blockstates/sacred_button.json",
+          "src/main/resources/assets/sg/models/block/sacred_button.json",
+          "src/main/resources/assets/sg/models/block/sacred_button_inventory.json",
+          "src/main/resources/assets/sg/models/block/sacred_button_pressed.json",
+          "src/main/resources/assets/sg/models/item/sacred_button.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredItemsTag",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/sacred_log.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredWoodRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_wood_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredPlanksRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_planks_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredStairsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredSlabRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_slab_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredFenceRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_fence_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredButtonRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_button_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "SacredStickRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/sacred_stick_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Sacred"
+    },
+    {
+      "name": "RosewoodWood",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/rosewood_wood.json",
+          "src/main/resources/assets/sg/models/item/rosewood_wood.json",
+          "src/main/java/net/mcreator/garden/block/RosewoodWoodBlock.java",
+          "src/main/resources/assets/sg/models/block/rosewood_wood.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodLog",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/RosewoodLogBlock.java",
+          "src/main/resources/assets/sg/models/item/rosewood_log.json",
+          "src/main/resources/assets/sg/models/block/rosewood_log.json",
+          "src/main/resources/assets/sg/blockstates/rosewood_log.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodPlanks",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/RosewoodPlanksBlock.java",
+          "src/main/resources/assets/sg/models/block/rosewood_planks.json",
+          "src/main/resources/assets/sg/models/item/rosewood_planks.json",
+          "src/main/resources/assets/sg/blockstates/rosewood_planks.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodLeaves",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/rosewood_leaves.json",
+          "src/main/java/net/mcreator/garden/block/RosewoodLeavesBlock.java",
+          "src/main/resources/assets/sg/models/block/rosewood_leaves.json",
+          "src/main/resources/assets/sg/models/item/rosewood_leaves.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodStairs",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/rosewood_stairs_inner.json",
+          "src/main/resources/assets/sg/models/block/rosewood_stairs_outer.json",
+          "src/main/resources/assets/sg/models/block/rosewood_stairs.json",
+          "src/main/resources/assets/sg/models/item/rosewood_stairs.json",
+          "src/main/resources/assets/sg/blockstates/rosewood_stairs.json",
+          "src/main/java/net/mcreator/garden/block/RosewoodStairsBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodSlab",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/rosewood_slab_full.json",
+          "src/main/resources/assets/sg/models/item/rosewood_slab.json",
+          "src/main/resources/assets/sg/blockstates/rosewood_slab.json",
+          "src/main/java/net/mcreator/garden/block/RosewoodSlabBlock.java",
+          "src/main/resources/assets/sg/models/block/rosewood_slab.json",
+          "src/main/resources/assets/sg/models/block/rosewood_slab_top.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodFence",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/rosewood_fence.json",
+          "src/main/resources/assets/sg/models/block/rosewood_fence_post.json",
+          "src/main/resources/assets/sg/models/block/rosewood_fence_inventory.json",
+          "src/main/resources/assets/sg/models/block/rosewood_fence.json",
+          "src/main/java/net/mcreator/garden/block/RosewoodFenceBlock.java",
+          "src/main/resources/assets/sg/blockstates/rosewood_fence.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodFenceGate",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/RosewoodFenceGateBlock.java",
+          "src/main/resources/assets/sg/blockstates/rosewood_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/rosewood_fence_gate_open.json",
+          "src/main/resources/assets/sg/models/item/rosewood_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/rosewood_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/rosewood_fence_gate_wall_open.json",
+          "src/main/resources/assets/sg/models/block/rosewood_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodPressurePlate",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/rosewood_pressure_plate.json",
+          "src/main/resources/assets/sg/blockstates/rosewood_pressure_plate.json",
+          "src/main/java/net/mcreator/garden/block/RosewoodPressurePlateBlock.java",
+          "src/main/resources/assets/sg/models/block/rosewood_pressure_plate_down.json",
+          "src/main/resources/assets/sg/models/item/rosewood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodButton",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/rosewood_button_pressed.json",
+          "src/main/resources/assets/sg/blockstates/rosewood_button.json",
+          "src/main/resources/assets/sg/models/block/rosewood_button_inventory.json",
+          "src/main/resources/assets/sg/models/block/rosewood_button.json",
+          "src/main/resources/assets/sg/models/item/rosewood_button.json",
+          "src/main/java/net/mcreator/garden/block/RosewoodButtonBlock.java"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodItemsTag",
+      "type": "tag",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/rosewood_log.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_button_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "RosewoodStickRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosewood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/rosewood_stick_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Rosewood"
+    },
+    {
+      "name": "Blighted_BalsaWood",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaWoodBlock.java",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_wood.json",
+          "src/main/resources/assets/sg/models/item/blighted_balsa_wood.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_wood.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaLog",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/blighted_balsa_log.json",
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaLogBlock.java",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_log.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_log.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaPlanks",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaPlanksBlock.java",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_planks.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_planks.json",
+          "src/main/resources/assets/sg/models/item/blighted_balsa_planks.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaLeaves",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_leaves.json",
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaLeavesBlock.java",
+          "src/main/resources/assets/sg/models/item/blighted_balsa_leaves.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_leaves.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaStairs",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/blighted_balsa_stairs.json",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_stairs.json",
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaStairsBlock.java",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_stairs.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_stairs_inner.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_stairs_outer.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaSlab",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaSlabBlock.java",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_slab.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_slab_full.json",
+          "src/main/resources/assets/sg/models/item/blighted_balsa_slab.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_slab.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_slab_top.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaFence",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaFenceBlock.java",
+          "src/main/resources/assets/sg/models/item/blighted_balsa_fence.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_fence_post.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_fence_inventory.json",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_fence.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_fence.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaFenceGate",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/blighted_balsa_fence_gate.json",
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaFenceGateBlock.java",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_fence_gate.json",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_fence_gate.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_fence_gate_wall.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_fence_gate_wall_open.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaPressurePlate",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaPressurePlateBlock.java",
+          "src/main/resources/assets/sg/models/item/blighted_balsa_pressure_plate.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_pressure_plate.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_pressure_plate_down.json",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_pressure_plate.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaButton",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/block/blighted_balsa_button.json",
+          "src/main/java/net/mcreator/garden/block/Blighted_BalsaButtonBlock.java",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_button_pressed.json",
+          "src/main/resources/assets/sg/models/block/blighted_balsa_button_inventory.json",
+          "src/main/resources/assets/sg/models/item/blighted_balsa_button.json",
+          "src/main/resources/assets/sg/blockstates/blighted_balsa_button.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaItemsTag",
+      "type": "tag",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/blighted_balsa_log.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaWoodRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_wood_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaPlanksRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_planks_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaStairsRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaSlabRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_slab_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaFenceRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_fence_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaButtonRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_button_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "Blighted_BalsaStickRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blighted_balsa_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/blighted_balsa_stick_recipe.json"
+        ]
+      },
+      "path": "~/Madeira/Blighted Balsa"
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/models/item/lead_ingot.json",
+          "src/main/java/net/mcreator/garden/item/LeadIngotItem.java"
+        ]
+      },
+      "path": "~/Minerio/Ingot/Lead"
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/garden/block/LeadOreBlock.java",
+          "src/main/resources/assets/sg/models/item/lead_ore.json",
+          "src/main/resources/assets/sg/blockstates/lead_ore.json",
+          "src/main/resources/data/sg/worldgen/configured_feature/lead_ore.json",
+          "src/main/resources/data/sg/worldgen/placed_feature/lead_ore.json",
+          "src/main/resources/assets/sg/models/block/lead_ore.json",
+          "src/main/resources/data/sg/forge/biome_modifier/lead_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Minerio/Ingot/Lead"
+    },
+    {
+      "name": "LeadBlock",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sg/blockstates/lead_block.json",
+          "src/main/resources/assets/sg/models/block/lead_block.json",
+          "src/main/resources/assets/sg/models/item/lead_block.json",
+          "src/main/java/net/mcreator/garden/block/LeadBlockBlock.java"
+        ]
+      },
+      "path": "~/Minerio/Ingot/Lead"
+    },
+    {
+      "name": "LeadOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/lead_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Minerio/Ingot/Lead"
+    },
+    {
+      "name": "LeadBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/lead_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Minerio/Ingot/Lead"
+    },
+    {
+      "name": "LeadOreSmelting",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sg/recipes/lead_ore_smelting.json"
+        ]
+      },
+      "path": "~/Minerio/Ingot/Lead"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.sg.lead_ingot": "Lead",
+      "block.sg.starlit_fence": "Starlit Fence",
+      "block.sg.sacred_stairs": "Sacred Stairs",
+      "block.sg.blighted_balsa_fence": "Blighted_Balsa Fence",
+      "block.sg.blighted_balsa_stairs": "Blighted_Balsa Stairs",
+      "block.sg.blighted_balsa_log": "Blighted_Balsa Log",
+      "block.sg.rosewood_stairs": "Rosewood Stairs",
+      "block.sg.blighted_balsa_fence_gate": "Blighted_Balsa Fence Gate",
+      "block.sg.ash_log": "Ash Log",
+      "block.sg.starlit_leaves": "Starlit Leaves",
+      "block.sg.starlit_planks": "Starlit Planks",
+      "block.sg.rosewood_planks": "Rosewood Planks",
+      "block.sg.blighted_balsa_leaves": "Blighted_Balsa Leaves",
+      "block.sg.starlit_slab": "Starlit Slab",
+      "block.sg.blighted_balsa_pressure_plate": "Blighted_Balsa Pressure Plate",
+      "block.sg.starlit_wood": "Starlit Wood",
+      "block.sg.sacred_planks": "Sacred Planks",
+      "block.sg.sacred_pressure_plate": "Sacred Pressure Plate",
+      "block.sg.starlit_fence_gate": "Starlit Fence Gate",
+      "block.sg.rosewood_slab": "Rosewood Slab",
+      "block.sg.ash_wood": "Ash Wood",
+      "block.sg.ash_fence": "Ash Fence",
+      "block.sg.rosewood_leaves": "Rosewood Leaves",
+      "block.sg.ash_slab": "Ash Slab",
+      "block.sg.starlit_pressure_plate": "Starlit Pressure Plate",
+      "block.sg.sacred_log": "Sacred Log",
+      "block.sg.lead_ore": "Lead Ore",
+      "block.sg.sacred_slab": "Sacred Slab",
+      "block.sg.rosewood_pressure_plate": "Rosewood Pressure Plate",
+      "block.sg.rosewood_fence_gate": "Rosewood Fence Gate",
+      "block.sg.rosewood_button": "Rosewood Button",
+      "block.sg.ash_fence_gate": "Ash Fence Gate",
+      "block.sg.rosewood_wood": "Rosewood Wood",
+      "block.sg.sacred_button": "Sacred Button",
+      "block.sg.starlit_stairs": "Starlit Stairs",
+      "block.sg.starlit_button": "Starlit Button",
+      "block.sg.lead_block": "Block of Lead",
+      "block.sg.ash_button": "Ash Button",
+      "block.sg.ash_leaves": "Ash Leaves",
+      "block.sg.rosewood_fence": "Rosewood Fence",
+      "block.sg.sacred_leaves": "Sacred Leaves",
+      "block.sg.blighted_balsa_wood": "Blighted_Balsa Wood",
+      "block.sg.blighted_balsa_button": "Blighted_Balsa Button",
+      "block.sg.starlit_log": "Starlit Log",
+      "block.sg.sacred_fence": "Sacred Fence",
+      "block.sg.ash_stairs": "Ash Stairs",
+      "block.sg.ash_pressure_plate": "Ash Pressure Plate",
+      "block.sg.blighted_balsa_slab": "Blighted_Balsa Slab",
+      "block.sg.sacred_wood": "Sacred Wood",
+      "block.sg.rosewood_log": "Rosewood Log",
+      "block.sg.sacred_fence_gate": "Sacred Fence Gate",
+      "block.sg.blighted_balsa_planks": "Blighted_Balsa Planks",
+      "block.sg.ash_planks": "Ash Planks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Madeira",
+        "children": [
+          {
+            "name": "Ash",
+            "children": []
+          },
+          {
+            "name": "Starlit",
+            "children": []
+          },
+          {
+            "name": "Sacred",
+            "children": []
+          },
+          {
+            "name": "Rosewood",
+            "children": []
+          },
+          {
+            "name": "Blighted Balsa",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Minerio",
+        "children": [
+          {
+            "name": "Ingot",
+            "children": [
+              {
+                "name": "Lead",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gui",
+        "children": [
+          {
+            "name": "Selector Screen",
+            "children": [
+              {
+                "name": "Class Selector",
+                "children": [
+                  {
+                    "name": "First Class Selector",
+                    "children": [
+                      {
+                        "name": "Guerreiro e Cavaleiro e Paladino",
+                        "children": []
+                      },
+                      {
+                        "name": "Arqueiro e Cacador e Ranger",
+                        "children": []
+                      },
+                      {
+                        "name": "Mago e Bruxo e Elementalista",
+                        "children": []
+                      },
+                      {
+                        "name": "Assassino e Ladino e Ninja",
+                        "children": []
+                      },
+                      {
+                        "name": "Clerigo e Sacerdote e Curandeiro",
+                        "children": []
+                      },
+                      {
+                        "name": "Feiticeiro e Invocador e Necromante",
+                        "children": []
+                      },
+                      {
+                        "name": "Druida e Xama e Exorcista",
+                        "children": []
+                      },
+                      {
+                        "name": "Monge e Lutador e Barbaro",
+                        "children": []
+                      },
+                      {
+                        "name": "Bardo e Dancarina e Ladrao",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Secondary Class Selector",
+                    "children": [
+                      {
+                        "name": "Lumberjack",
+                        "children": []
+                      },
+                      {
+                        "name": "Miner",
+                        "children": []
+                      },
+                      {
+                        "name": "Hunter",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Race Selector",
+                "children": [
+                  {
+                    "name": "Human",
+                    "children": []
+                  },
+                  {
+                    "name": "Elf",
+                    "children": [
+                      {
+                        "name": "Dark Elf",
+                        "children": []
+                      },
+                      {
+                        "name": "Light Elf",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dwarf",
+                    "children": []
+                  },
+                  {
+                    "name": "Orc",
+                    "children": []
+                  },
+                  {
+                    "name": "Dryad",
+                    "children": []
+                  },
+                  {
+                    "name": "Beast Man",
+                    "children": [
+                      {
+                        "name": "LizardFolk",
+                        "children": []
+                      },
+                      {
+                        "name": "BirdFolk",
+                        "children": []
+                      },
+                      {
+                        "name": "CatFolk",
+                        "children": []
+                      },
+                      {
+                        "name": "WolfFolk",
+                        "children": []
+                      },
+                      {
+                        "name": "DragonFolk",
+                        "children": []
+                      },
+                      {
+                        "name": "FoxFolk",
+                        "children": []
+                      },
+                      {
+                        "name": "DogFolk",
+                        "children": []
+                      },
+                      {
+                        "name": "SpiritFolk",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Minotaur",
+                    "children": []
+                  },
+                  {
+                    "name": "Centaur",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Element Selector",
+                "children": [
+                  {
+                    "name": "First Element Selector",
+                    "children": [
+                      {
+                        "name": "Fire",
+                        "children": []
+                      },
+                      {
+                        "name": "Water",
+                        "children": []
+                      },
+                      {
+                        "name": "Earth",
+                        "children": []
+                      },
+                      {
+                        "name": "Air",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Second Element Selector",
+                    "children": [
+                      {
+                        "name": "Fire",
+                        "children": []
+                      },
+                      {
+                        "name": "Water",
+                        "children": []
+                      },
+                      {
+                        "name": "Earth",
+                        "children": []
+                      },
+                      {
+                        "name": "Air",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Divergent Selector",
+                "children": [
+                  {
+                    "name": "First Divergent Element Selector",
+                    "children": [
+                      {
+                        "name": "Electricity",
+                        "children": []
+                      },
+                      {
+                        "name": "Ice",
+                        "children": []
+                      },
+                      {
+                        "name": "Plant",
+                        "children": []
+                      },
+                      {
+                        "name": "Sound",
+                        "children": []
+                      },
+                      {
+                        "name": "Metal",
+                        "children": []
+                      },
+                      {
+                        "name": "Illusion",
+                        "children": []
+                      },
+                      {
+                        "name": "Light",
+                        "children": []
+                      },
+                      {
+                        "name": "Dark",
+                        "children": []
+                      },
+                      {
+                        "name": "Aether",
+                        "children": [
+                          {
+                            "name": "Space",
+                            "children": []
+                          },
+                          {
+                            "name": "Time",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Status Screen",
+            "children": []
+          },
+          {
+            "name": "Updates Screen",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "sg",
+    "modName": "Star Garden",
+    "version": "0.0.1",
+    "author": "Kuro Saturn",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "banner",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "pehkui",
+      "curios_api",
+      "patchouli",
+      "geckolib",
+      "playeranimator",
+      "cloth-config"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.garden",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sg:block/sacred_slab"
+    },
+    "type=top": {
+      "model": "sg:block/sacred_slab_top"
+    },
+    "type=double": {
+      "model": "sg:block/sacred_slab_full"
+    }
+  }
+}

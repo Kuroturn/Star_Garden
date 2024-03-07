@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sg:block/starlit_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sg:block/starlit_log"
+    },
+    "axis=z": {
+      "model": "sg:block/starlit_log",
+      "x": 90
+    }
+  }
+}

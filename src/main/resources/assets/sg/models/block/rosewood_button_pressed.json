@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "sg:block/rosewood_planks"
+  },
+  "render_type": "solid"
+}

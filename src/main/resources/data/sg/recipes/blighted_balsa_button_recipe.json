@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "sg:blighted_balsa_planks"
+    }
+  ],
+  "result": {
+    "item": "sg:blighted_balsa_button",
+    "count": 1
+  }
+}

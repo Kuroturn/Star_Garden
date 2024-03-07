@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "sg:block/ash_pressure_plate"
+    },
+    "powered=true": {
+      "model": "sg:block/ash_pressure_plate_down"
+    }
+  }
+}

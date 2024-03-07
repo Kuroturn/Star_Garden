@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Blighted_BalsaWood"
+      },
+      {
+        "value": "CUSTOM:Blighted_BalsaLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "blighted_balsa_log",
+    "namespace": "forge"
+  }
+}

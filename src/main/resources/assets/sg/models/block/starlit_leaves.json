@@ -1,0 +1,14 @@
+{
+  "parent": "block/cube_all",
+  "type": "fusion:connecting",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
+  "textures": {
+    "all": "sg:block/starlit_leaves",
+    "particle": "sg:block/starlit_leaves"
+  }
+}
