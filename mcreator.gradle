@@ -5,7 +5,7 @@ repositories {
 }
 
 dependencies {
-  implementation fg.deobf("curse.maven:kleidersplayerrenderer-682065:5083528")
+  implementation fg.deobf("curse.maven:kleidersplayerrenderer-682065:5083323")
 }
 
 
@@ -32,8 +32,8 @@ repositories {
 }
 
 dependencies {
-	compileOnly fg.deobf("com.github.Virtuoel:Pehkui:3.7.11-1.19.4-forge")
-	runtimeOnly fg.deobf("com.github.Virtuoel:Pehkui:3.7.11-1.19.4-forge")
+	compileOnly fg.deobf("com.github.Virtuoel:Pehkui:3.7.12-1.20.1-forge")
+	runtimeOnly fg.deobf("com.github.Virtuoel:Pehkui:3.7.12-1.20.1-forge")
 }
 
 
@@ -44,8 +44,8 @@ maven {
 }
 
 dependencies {
-  runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.19.4-5.1.5.2")
-  compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.19.4-5.1.5.2:api")
+  runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.4.2+1.20.1")
+  compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.4.2+1.20.1:api")
 }
 minecraft {
   runs {
@@ -71,8 +71,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1-FORGE:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1-FORGE")
+    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE:api")
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84-FORGE")
 	// Plugin Note: PatchouliAPI versions can be found here: https://www.curseforge.com/minecraft/mc-mods/patchouli/files/all?page=1&pageSize=20&gameVersionTypeId=1
 }
 
@@ -84,7 +84,7 @@ repositories {
 }
 
 dependencies {
-  implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19.4:4.2')
+  implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.4.2')
 }
 
 minecraft {
@@ -125,7 +125,7 @@ repositories {
 }
 
  dependencies {
-   implementation fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:1.0.2+1.19.4")
+   implementation fg.deobf("dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.20")
  }
 
 
@@ -138,8 +138,8 @@ repositories {
     }
 }
 dependencies {
-   compileOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633433")
-   runtimeOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633433")
+   compileOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633444")
+   runtimeOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633444")
 }
 
 

@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.garden.init.SgModTabs;
 import net.mcreator.garden.init.SgModItems;
 import net.mcreator.garden.init.SgModBlocks;
 
@@ -51,7 +52,10 @@ public class SgMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		SgModBlocks.REGISTRY.register(bus);
+
 		SgModItems.REGISTRY.register(bus);
+
+		SgModTabs.REGISTRY.register(bus);
 
 	}
 

@@ -1709,9 +1709,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.sg.lead_ingot": "Lead",
-      "block.sg.starlit_fence": "Starlit Fence",
       "block.sg.sacred_stairs": "Sacred Stairs",
+      "block.sg.starlit_fence": "Starlit Fence",
+      "item.sg.lead_ingot": "Lead",
       "block.sg.blighted_balsa_fence": "Blighted_Balsa Fence",
       "block.sg.blighted_balsa_stairs": "Blighted_Balsa Stairs",
       "block.sg.blighted_balsa_log": "Blighted_Balsa Log",
@@ -1719,8 +1719,8 @@
       "block.sg.blighted_balsa_fence_gate": "Blighted_Balsa Fence Gate",
       "block.sg.ash_log": "Ash Log",
       "block.sg.starlit_leaves": "Starlit Leaves",
-      "block.sg.starlit_planks": "Starlit Planks",
       "block.sg.rosewood_planks": "Rosewood Planks",
+      "block.sg.starlit_planks": "Starlit Planks",
       "block.sg.blighted_balsa_leaves": "Blighted_Balsa Leaves",
       "block.sg.starlit_slab": "Starlit Slab",
       "block.sg.blighted_balsa_pressure_plate": "Blighted_Balsa Pressure Plate",
@@ -2096,7 +2096,7 @@
       "playeranimator",
       "cloth-config"
     ],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.garden",
     "lockBaseModFiles": false
