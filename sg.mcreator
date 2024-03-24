@@ -2110,14 +2110,39 @@
       "path": "~/Gui/Selector Screen/Class Selector/First Class Selector/Normal Classes"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Strength",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Dexterity",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Intelligence",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Defense",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "block.sg.sacred_stairs": "Sacred Stairs",
       "gui.sg.class_mago.label_guerreiro": "Mago",
-      "block.sg.blighted_balsa_stairs": "Blighted_Balsa Stairs",
       "gui.sg.class_monge.label_guerreiro": "Monge",
+      "block.sg.blighted_balsa_stairs": "Blighted_Balsa Stairs",
       "gui.sg.class_feiticeiro.label_guerreiro": "Feiticeiro",
       "block.sg.blighted_balsa_log": "Blighted_Balsa Log",
       "block.sg.rosewood_stairs": "Rosewood Stairs",
@@ -2134,8 +2159,8 @@
       "block.sg.rosewood_slab": "Rosewood Slab",
       "gui.sg.class_clerigo.label_guerreiro": "Clerigo",
       "gui.sg.class_sacerdote.label_class": "- - - Class - - -",
-      "gui.sg.class_invocador.label_guerreiro": "Invocador",
       "gui.sg.class_monge.label_class": "- - - Class - - -",
+      "gui.sg.class_invocador.label_guerreiro": "Invocador",
       "block.sg.ash_wood": "Ash Wood",
       "gui.sg.class_ninja.button_aaaaaaaaaaaaa": "Select",
       "gui.sg.class_barbaro.label_guerreiro": "Barbaro",
