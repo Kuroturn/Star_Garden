@@ -15,6 +15,7 @@ import net.minecraftforge.common.capabilities.CapabilityToken;
 import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.common.capabilities.Capability;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
@@ -80,6 +81,9 @@ public class SgModVariables {
 			clone.Dexterity = original.Dexterity;
 			clone.Intelligence = original.Intelligence;
 			clone.Defense = original.Defense;
+			clone.Health = original.Health;
+			clone.Mana = original.Mana;
+			clone.Level = original.Level;
 			if (!event.isWasDeath()) {
 			}
 			if (!event.getEntity().level().isClientSide()) {
@@ -121,10 +125,13 @@ public class SgModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double Strength = 0;
-		public double Dexterity = 0;
-		public double Intelligence = 0;
-		public double Defense = 0;
+		public double Strength = 0.0;
+		public double Dexterity = 0.0;
+		public double Intelligence = 0.0;
+		public double Defense = 0.0;
+		public double Health = 0.0;
+		public double Mana = 0.0;
+		public double Level = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -137,6 +144,9 @@ public class SgModVariables {
 			nbt.putDouble("Dexterity", Dexterity);
 			nbt.putDouble("Intelligence", Intelligence);
 			nbt.putDouble("Defense", Defense);
+			nbt.putDouble("Health", Health);
+			nbt.putDouble("Mana", Mana);
+			nbt.putDouble("Level", Level);
 			return nbt;
 		}
 
@@ -146,6 +156,9 @@ public class SgModVariables {
 			Dexterity = nbt.getDouble("Dexterity");
 			Intelligence = nbt.getDouble("Intelligence");
 			Defense = nbt.getDouble("Defense");
+			Health = nbt.getDouble("Health");
+			Mana = nbt.getDouble("Mana");
+			Level = nbt.getDouble("Level");
 		}
 	}
 
@@ -183,6 +196,9 @@ public class SgModVariables {
 					variables.Dexterity = message.data.Dexterity;
 					variables.Intelligence = message.data.Intelligence;
 					variables.Defense = message.data.Defense;
+					variables.Health = message.data.Health;
+					variables.Mana = message.data.Mana;
+					variables.Level = message.data.Level;
 				}
 			});
 			context.setPacketHandled(true);

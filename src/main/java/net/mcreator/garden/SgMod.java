@@ -30,7 +30,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.garden.init.SgModTabs;
-import net.mcreator.garden.init.SgModMenus;
 import net.mcreator.garden.init.SgModItems;
 import net.mcreator.garden.init.SgModBlocks;
 
@@ -58,7 +57,6 @@ public class SgMod {
 
 		SgModTabs.REGISTRY.register(bus);
 
-		SgModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
