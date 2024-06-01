@@ -21,43 +21,7 @@ authors="Kuro Saturn"
 
 
 [[dependencies.sg]]
-    modId="kleidersplayerrenderer"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sg]]
-    modId="pehkui"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sg]]
     modId="curios_api"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sg]]
-    modId="patchouli"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sg]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sg]]
-    modId="playeranimator"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sg]]
-    modId="cloth-config"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

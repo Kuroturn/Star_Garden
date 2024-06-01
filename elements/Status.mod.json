@@ -1,0 +1,145 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 433,
+    "height": 300,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "2.png",
+          "use1Xscale": true,
+          "x": 107,
+          "y": -1
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1.png",
+          "use1Xscale": true,
+          "x": 105,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_strength",
+          "text": {
+            "fixedValue": "Str:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dexterity",
+          "text": {
+            "fixedValue": "Dex:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_intelligence",
+          "text": {
+            "fixedValue": "Int:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_defense",
+          "text": {
+            "fixedValue": "Def:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_health",
+          "text": {
+            "fixedValue": "Hit:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ana",
+          "text": {
+            "fixedValue": "Ana:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 181,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_level",
+          "text": {
+            "fixedValue": "Level:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 17,
+      "sy": 18,
+      "ox": 21,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
